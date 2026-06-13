@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="620" viewBox="0 0 680 620" font-family="Arial, sans-serif">
+<rect x="0" y="0" width="680" height="620" fill="#FFFFFF"/>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrowO" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#BA7517" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrowG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#639922" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrowC" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#D85A30" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrowR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#E24B4A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<text x="40" y="24" font-size="12" fill="#888780">Linha solida = aresta fixa | linha tracejada = aresta condicional (decisao do LLM)</text>
+
+<line x1="120" y1="58" x2="120" y2="78" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="60" y="34" width="120" height="24" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/><text x="120" y="50" text-anchor="middle" font-size="14" font-weight="500" fill="#2C2C2A">__start__</text>
+
+<rect x="50" y="78" width="140" height="40" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/><text x="120" y="96" text-anchor="middle" font-size="14" font-weight="500" fill="#2C2C2A">perfilador</text><text x="120" y="111" text-anchor="middle" font-size="12" fill="#5F5E5A">dossie (6 camadas)</text>
+<line x1="120" y1="118" x2="120" y2="138" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="50" y="138" width="140" height="40" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/><text x="120" y="156" text-anchor="middle" font-size="14" font-weight="500" fill="#0C447C">analista</text><text x="120" y="171" text-anchor="middle" font-size="12" fill="#185FA5">plano + premissas</text>
+
+<rect x="240" y="138" width="130" height="40" rx="8" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/><text x="305" y="156" text-anchor="middle" font-size="14" font-weight="500" fill="#633806">esclarecer</text><text x="305" y="171" text-anchor="middle" font-size="12" fill="#854F0B">interrupt</text>
+<path d="M190 152 L240 152" fill="none" stroke="#BA7517" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrowO)"/>
+<path d="M305 178 L305 200 L120 200 L120 180" fill="none" stroke="#888780" stroke-width="1" marker-end="url(#arrow)"/>
+
+<line x1="120" y1="178" x2="120" y2="220" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="50" y="220" width="140" height="40" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/><text x="120" y="238" text-anchor="middle" font-size="14" font-weight="500" fill="#3C3489">engenheiro</text><text x="120" y="253" text-anchor="middle" font-size="12" fill="#534AB7">text-to-SQL</text>
+<line x1="120" y1="260" x2="120" y2="290" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="50" y="290" width="140" height="40" rx="8" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/><text x="120" y="308" text-anchor="middle" font-size="14" font-weight="500" fill="#633806">guardrail</text><text x="120" y="323" text-anchor="middle" font-size="12" fill="#854F0B">valida SQL</text>
+<path d="M50 310 L30 310 L30 240 L48 240" fill="none" stroke="#BA7517" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrowO)"/>
+<line x1="120" y1="330" x2="120" y2="360" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="50" y="360" width="140" height="40" rx="8" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/><text x="120" y="378" text-anchor="middle" font-size="14" font-weight="500" fill="#27500A">executor</text><text x="120" y="393" text-anchor="middle" font-size="12" fill="#3B6D11">somente-leitura</text>
+<path d="M40 380 L18 380 L18 233 L48 233" fill="none" stroke="#639922" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrowG)"/>
+<line x1="120" y1="400" x2="120" y2="430" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="50" y="430" width="140" height="40" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/><text x="120" y="448" text-anchor="middle" font-size="14" font-weight="500" fill="#712B13">auditor</text><text x="120" y="463" text-anchor="middle" font-size="12" fill="#993C1D">autocorrecao n2</text>
+<path d="M190 450 L420 450 L420 240 L192 240" fill="none" stroke="#D85A30" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrowC)"/>
+<text x="430" y="345" font-size="12" fill="#888780">devolve ao</text>
+<text x="430" y="360" font-size="12" fill="#888780">engenheiro</text>
+
+<line x1="120" y1="470" x2="120" y2="500" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="50" y="500" width="140" height="40" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/><text x="120" y="518" text-anchor="middle" font-size="14" font-weight="500" fill="#085041">visualizador</text><text x="120" y="533" text-anchor="middle" font-size="12" fill="#0F6E56">grafico</text>
+<line x1="120" y1="540" x2="120" y2="565" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="50" y="565" width="140" height="34" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/><text x="120" y="586" text-anchor="middle" font-size="14" font-weight="500" fill="#0C447C">redator</text>
+
+<rect x="490" y="430" width="150" height="40" rx="8" fill="#FCEBEB" stroke="#A32D2D" stroke-width="0.5"/><text x="565" y="448" text-anchor="middle" font-size="14" font-weight="500" fill="#791F1F">falha_graciosa</text><text x="565" y="463" text-anchor="middle" font-size="12" fill="#A32D2D">tetos estourados</text>
+<path d="M190 445 L300 445 L300 450 L488 450" fill="none" stroke="#E24B4A" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrowR)"/>
+
+<rect x="505" y="565" width="120" height="24" rx="6" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/><text x="565" y="581" text-anchor="middle" font-size="14" font-weight="500" fill="#2C2C2A">__end__</text>
+<path d="M190 582 L505 577" fill="none" stroke="#888780" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M565 470 L565 565" fill="none" stroke="#888780" stroke-width="1" marker-end="url(#arrow)"/>
+</svg>

@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+testpaths = ["testes"]
+markers = [
+    "marco1: testes do Marco 1 (fundação determinística + POC)",
+    "marco2: testes do Marco 2 (grafo multiagêntico)",
+    "marco3: testes do Marco 3 (visualização)",
+    "marco4: testes do Marco 4 (interface Streamlit)",
+    "marco5: testes do Marco 5 (visualização dinâmica do grafo)",
+    "marco6: testes do Marco 6 (documentação final)",
+]

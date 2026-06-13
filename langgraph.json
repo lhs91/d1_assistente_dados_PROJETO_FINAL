@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "assistente": "./app/studio.py:grafo"
+  },
+  "env": ".env"
+}
